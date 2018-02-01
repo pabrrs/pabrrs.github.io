@@ -1,0 +1,38 @@
+
+.no-margin{
+    margin:0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.pad-top-1 {
+    padding-top: 1em;
+}
+
+.float-right {
+    float:right;
+}
+
+.float-left {
+    float:left;
+}
+
+$def-delay-conversor: 0.5;
+
+.delay-05 {
+    animation-delay: $def-delay-conversor;
+}
+
+.delay-1 {
+    animation-delay: 1s * $def-delay-conversor;
+}
+
+.delay-2 {
+    animation-delay: 2s * $def-delay-conversor;
+}
+
+.delay-3 {
+    animation-delay: 3s * $def-delay-conversor;
+}

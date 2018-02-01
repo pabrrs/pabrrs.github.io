@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.google.com/specimen/Roboto?selection.family=Roboto");
+
+$nav-heigth: 7.5em;
+$nav-heigth-area: $nav-heigth - 1em;
+$main-content-heigth: $nav-heigth + 30em;
+
+/* Tags */
+
+html {
+    overflow-x: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: $background;
+}
+
+blockquote {
+    color: $grey;
+    border-left: 0.4em solid $grey-light;
+    padding-left: 8px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    background-color: $black;
+    min-height: 12em;
+
+    .footer-content {
+        padding: 2em 0 2em 0;
+    }
+
+    .footer-desc {
+        text-align: center;
+    }
+
+    a {
+        color: $grey;
+    }
+}
+
+/* card */
+
+.post-card {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+}
+
+.post-info, .post-categories {
+    font-size: 0.8em;
+}
+
+.post-info {
+
+    .post-author {
+        float: left;
+    }
+
+    .post-date {
+        float: right;
+    }
+}
+
+/* single post style */
+.post {
+
+    .post-main {
+        background-color: $paper-page-color;
+    }
+
+    .post-header {
+        text-align: center;
+
+        .post-cover {
+            position: relative;
+    
+            .post-title {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                padding-top: 1em;
+                padding-bottom: 1em;
+                font-weight: bolder !important;
+                color: white;
+                background-color: $layer-black;
+                width: 100%;
+            }
+    
+            figure.cover-image
+            {
+                img {
+                    width: 100%;
+                }
+    
+                .img-copyright {
+                    font-style: italic;
+                    font-weight: bold !important;
+                    font-size: 0.8em;
+                }
+
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    .post-body {
+        padding: 0 1em 1em 1em !important;
+
+        section {
+            padding: 1em !important;
+        }
+        .post-content {
+            margin: 2em 0 2em 0;
+            border-top: 1px solid $grey-light;
+            border-bottom: 1px solid $grey-light;
+            color: $paper-letter-color;
+
+            .content {
+                margin: 1em;
+                b, strong {font-weight: bold !important;}
+                a {
+                    text-decoration: underline;
+                    color: #3a3a3a !important;
+                    &:hover {
+                        color: $black !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .post-footer {
+        padding-bottom: 0.8em;
+    }
+
+    .post-border {
+        background-color: darken($background, 3);
+    }
+}
+
+.card-title {
+    text-transform: capitalize;
+}
+
+/* Main Page content */
+
+.landing-content {
+    text-align: center;
+    height: $main-content-heigth;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: $nav-heigth-area;
+
+    figure {
+        margin-top: 4.5em;
+    }
+
+    .landing-image {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        border: 5px double $grey-dark;
+        margin: 2em 0 2em 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+}
+
+/* Under construction page */
+
+.under-construction {
+    height: 40em;
+}
+
+/* Header */
+
+.site-header {
+    nav {
+        height: $nav-heigth;
+        padding: 0 5px 2px 5px;
+        background-color: $black !important;
+
+        .nav-item {
+            margin: 0 0 0 10px;
+        }
+
+        .nav-link {
+            i {
+                font-size: 2em;
+                vertical-align: middle;
+            }
+        }
+
+        .navbar-brand, .navbar-nav {
+            margin: 0 auto !important;
+            text-align: center !important;
+        }
+
+        ul.navbar-nav {
+            border-top: 0.1em solid $grey-light;
+        }
+    }
+}
+
+/* social media list */
+
+.social-media-list {
+    text-align: center;
+    padding: 0;
+
+    li {
+        display: inline;
+    }
+
+    a {
+        color: $grey-light;
+
+        &:hover {
+            color: $background;
+        }
+    }
+}
+
+/* Card styles */
+
+.card {
+
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    &:hover {
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    }
+}
