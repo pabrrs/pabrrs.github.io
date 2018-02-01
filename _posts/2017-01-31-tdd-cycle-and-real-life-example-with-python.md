@@ -254,5 +254,5 @@ I see no reason why do not use TDD when possible.
 
 Read more:
 * [Agile Software Programming Best Pratices (versionone.com)](https://www.versionone.com/agile-101/agile-software-programming-best-practices/)
-* [Best Pratices Software Development and Testing (opensource.com)](https://opensource.com/article/17/5/30-best-practices-software-development-and-testing)
+* [30 Best Pratices Software Development and Testing (opensource.com)](https://opensource.com/article/17/5/30-best-practices-software-development-and-testing)
 * [Why is Test-Driven Development Useful? (medium.com)](https://medium.com/@fagnerbrack/why-test-driven-development-4fb92d56487c)
