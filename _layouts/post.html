@@ -42,10 +42,10 @@ layout: default
               </div>
             </div>
             <div class="post-footer">
-              <div class="post-categories padding">
-                <i class="fas fa-tags text-primary"></i>
+              <div class="post-categories padding text-primary">
+                <i class="fas fa-tags"></i>
                 {% for category in page.categories %}
-                <a href="{{category.url}}">{{category}}</a>
+                  <span>{{category}}</span>
                 {% endfor %}
               </div>
             </div>

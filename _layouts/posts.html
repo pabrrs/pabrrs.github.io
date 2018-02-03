@@ -22,17 +22,17 @@ layout: default
 							<a href="http://{{author.twitter}}"><i class='fas fa-user'></i> {{ author.name }}</a>
 							</span>
 							<span class="float-right">
-							<i class='fas fa-clock'></i> {{post.date | date: "%b %e, %Y"}}
+								<i class='fas fa-clock'></i> {{post.date | date: "%b %e, %Y"}}
 							</span>
 						</div>
 						<hr/>
 						<p>{{post.excerpt | strip_html }}</p>
 					</div>
 					{% if post.categories %}
-					<div class='card-footer post-categories'>
-						<i class="fas fa-tags text-primary"></i>
+					<div class='card-footer post-categories text-primary'>
+						<i class="fas fa-tags"></i>
 						{% for category in post.categories %}
-						<a href="{{category.url}}">{{category}}</a>
+							<span>{{category}}</span>
 						{% endfor %}
 					</div>
 					{% endif %}
