@@ -1,0 +1,77 @@
+/* components */
+.card {
+    background-color: white;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+}
+/* card responsive */
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 75%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .card {
+        width: 85%;
+    }
+}
+
+
+/* card-alpha */
+.card-alpha {
+    margin-top: 10em;
+}
+.card-alpha-image {
+    position: absolute;
+    background-color: unset;
+    text-align: center;
+    top: 70px !important;
+    left: 0;
+    right: 0;
+}
+.card-alpha-image img {
+    width: 150px;
+    height: 150px;
+    /* border: 2px white solid; */
+}
+.card-alpha-subheader {
+    width: 80%;
+    margin-top: 1.5em;
+}
+.card-alpha-subheader p {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* text-styles */
+.header {
+    margin-bottom: 0.5em;
+}
+.subheader {
+    margin-top: 0.5em;
+}
+
+
+/* social media list */
+div.social-media {
+    margin-bottom: 10px;
+}
+div.social-media a {
+    padding: 5px;
+    text-decoration: none;
+}
+div.social-media i {
+    color: black;
+}
+/* social-media responsive */
+@media only screen and (max-width: 600px) {
+    div.social-media a {
+        padding: 10px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    div.social-media a {
+        padding: 20px;
+    }
+}

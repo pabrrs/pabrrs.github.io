@@ -1,0 +1,43 @@
+/* behaviors */
+.center {
+    text-align: center;
+}
+
+.no-select {
+    -webkit-touch-callout: none; 
+      -webkit-user-select: none; 
+       -khtml-user-select: none; 
+         -moz-user-select: none; 
+          -ms-user-select: none; 
+              user-select: none; 
+}
+
+.rounded {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+.text-silver {
+    color:#a9a9a9;
+}
+
+.icon-md {
+    font-size: 18px;
+}
+
+.icon-lg {
+    font-size: 28px;
+}
+
+.icon-xlg {
+    font-size: 72px;
+}
+
+.grow-hover {
+    transition: all .2s ease-in-out;
+}
+.grow-hover:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.7);
+    transform: scale(1.5);
+}
