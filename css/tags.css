@@ -11,3 +11,39 @@ body {
 i {
     vertical-align: middle;
 }
+
+/* Single elements */
+#kernel_the_cat {
+    position: absolute;
+    left: 60%;
+    top: 40px;
+}
+#kernel_the_cat img {
+    width: 150px;
+    height: 150px;
+}
+@media only screen and (max-width: 800px) {
+    #kernel_the_cat {
+        left: 58%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #kernel_the_cat {
+        left: 65%;
+        top: 60px;
+    }
+    #kernel_the_cat img {
+        width: 125px;
+        height: 125px;
+    }
+}
+@media only screen and (max-width: 400px) {
+    #kernel_the_cat {
+        left: 70%;
+        top: 80px;
+    }
+    #kernel_the_cat img {
+        width: 100px;
+        height: 100px;
+    }
+}

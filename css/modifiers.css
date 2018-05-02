@@ -18,8 +18,16 @@
     -moz-border-radius: 50%;
 }
 
-.text-silver {
+.paint-silver {
     color:#a9a9a9;
+}
+
+.paint-black {
+    color:black;
+}
+
+.paint-white {
+    color:white;
 }
 
 .icon-md {
@@ -39,5 +47,32 @@
 }
 .grow-hover:hover {
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.7);
-    transform: scale(1.5);
+    transform: scale(1.25);
+}
+
+p.skills {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.text-sm {
+    font-size: 12px;
+}
+.text-xsm {
+    font-size: 10px;
+}
+
+.right {
+    float: right;
+}
+.left {
+    float: left;
+}
+
+.text-block {
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
 }
