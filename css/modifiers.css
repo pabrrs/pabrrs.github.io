@@ -39,7 +39,7 @@
 }
 
 .icon-xlg {
-    font-size: 72px;
+    font-size: 48px;
 }
 
 .grow-hover {
@@ -75,4 +75,9 @@ p.skills {
 
 .bold {
     font-weight: bold;
+}
+
+.margin-top-only {
+    margin: 1em 0 0 0;
+    width: 100%;
 }

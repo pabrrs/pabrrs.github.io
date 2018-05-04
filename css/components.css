@@ -43,6 +43,12 @@
 }
 
 
+/* card no-body */
+.card.no-body {
+    background-color: black !important;
+    border: 6px white solid;
+}
+
 /* card-alpha */
 .card-alpha {
     margin-top: 10em;
@@ -94,9 +100,15 @@ div.social-media i {
     width: 25px;
     color: white;
     position: relative;
-    top: 1.85em;
+    top: 2em;
     margin: 0 auto;
 }
 .card-icon i {
     font-size: 25px;
+}
+
+
+.skills i {
+    font-size: 42px;
+    color: white;
 }
