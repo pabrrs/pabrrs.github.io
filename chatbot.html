@@ -1,0 +1,153 @@
+<html>
+  <head>
+    <style>
+      #bate-papo {
+        width:100%;
+        height: 500px;
+      }
+      #mensagem {
+        margin-top: 20px;
+        width: 75%;
+        float: left;
+      }
+      #enviar {
+        width: 20%;
+        float:right;
+        margin-top: 20px;
+      }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" />
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  </head>
+  
+  <body>
+      <textarea id="json-messages" style="display:none">
+        [
+          {
+            "mensagens": [
+              "Não consegui entender.",
+              "Hmmm... ainda não consigo compreender esse tipo de assunto",
+              "Que tal você ser mais claro?"
+            ]
+          },
+          {
+            "mensagens": [
+              "Olá qual o seu nome ?",
+              "Como você se chama ?"
+            ],
+            "palavrasChave": [
+              "eu",
+              "me",
+              "meu",
+              "nome",
+              "chamo",
+              "é",
+              "sou",
+              "o"
+            ],
+            "palavrasEsperadas": []
+          },
+          {
+            "mensagens": [
+              "Olá #nome#, você está bem ?",
+              "Eae #nome#, tudo bem ?"
+            ],
+            "palavrasChave": [
+              "eu",
+              "estou",
+              "sinto",
+              "acho",
+              "me"
+            ],
+            "palavrasEsperadas": [
+              "sim",
+              "nao",
+              "talvez"
+            ]
+          },
+          {
+            "mensagens": [
+              "Olhe sempre para seus objetivos #nome# e dará tudo certo.",
+              "Não desista do seus sonhos #nome#",
+              "Seja persistente #nome#, você pode alcançar tudo que desejar."
+            ],
+            "palavrasChave": [],
+            "palavrasEsperadas": []
+          }
+        ]
+      </textarea>
+      <textarea id="bate-papo"></textarea>
+      <input type="text" value="" id="mensagem"/>
+      <button id="enviar" onClick="ouvir()">Enviar</button>
+
+    <script>
+        var nome = "";
+        var profundidade = 0;
+        var conversa;
+      
+      function randomMsg(index) {
+        var rand = conversa[index].mensagens;
+        return rand[Math.floor(Math.random() * rand.length)];
+      };
+      
+      function pegarAssunto() {
+        var encontraAssunto = false;
+        var result = $("#mensagem").val();
+        var arrayPalavras = result.split(" ");
+        $(arrayPalavras).each(function( index, value ) {
+            encontraAssunto = conversa[profundidade].palavrasChave.includes(value);
+            if (encontraAssunto) {
+              result = result.replace(value, "");
+            }
+          });
+        result = result.replace(" ", "");
+        var encontraPalavraEsperada = true;
+        if (conversa[profundidade].palavrasEsperadas.length > 0) {
+            encontraPalavraEsperada = conversa[profundidade].palavrasEsperadas.toString().includes(result);
+        }
+        
+        if (!encontraPalavraEsperada) {
+          falarC(randomMsg(0));
+          profundidade--;
+          throw 0;  
+        }
+        return result.replace(" ",""); 
+      }
+      
+      function ouvir(){
+        falarE($("#mensagem").val());
+        var mensagem = pegarAssunto();
+        $("#mensagem").val("");
+        switch (profundidade) {
+          case 1:
+            nome = mensagem;  
+        }
+        profundidade++;
+        var innerMsg = randomMsg(profundidade);
+        falarC(innerMsg.replace("#nome#", nome));
+      };
+
+      function falarC(assunto){
+        if (profundidade == conversa.length-1) {
+          $("#bate-papo").append("Charlie: " + assunto + "\nAté mais ...");  
+        } else {
+          $("#bate-papo").append("Charlie: " + assunto + "\n");    
+        }
+      };
+      function falarE(assunto){
+        $("#bate-papo").append("Eu: " + assunto + "\n");
+      };
+
+      $(document).ready(function() {
+        conversa = JSON.parse($("#json-messages").html());
+        profundidade = 1;
+        falarC(randomMsg(profundidade));
+      });
+
+    </script>
+    
+  </body>
+</html>
