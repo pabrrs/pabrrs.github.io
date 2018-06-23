@@ -1,7 +1,9 @@
 /* global tags */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
     background-color: #000001;
-    font-family: 'LiberationMonoRegular';
+    font-family: 'Roboto';
     font-weight: normal;
     font-style: normal;
     margin: 0;
