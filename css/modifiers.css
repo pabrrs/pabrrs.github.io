@@ -1,83 +1,83 @@
 /* behaviors */
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .no-select {
-    -webkit-touch-callout: none; 
-      -webkit-user-select: none; 
-       -khtml-user-select: none; 
-         -moz-user-select: none; 
-          -ms-user-select: none; 
-              user-select: none; 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .rounded {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
 }
 
 .paint-silver {
-    color:#a9a9a9;
+  color: #a9a9a9;
 }
 
 .paint-black {
-    color:black;
+  color: black;
 }
 
 .paint-white {
-    color:white;
+  color: white;
 }
 
 .icon-md {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .icon-lg {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 .icon-xlg {
-    font-size: 48px;
+  font-size: 48px;
 }
 
 .grow-hover {
-    transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .grow-hover:hover {
-    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.7);
-    transform: scale(1.25);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.7);
+  transform: scale(1.25);
 }
 
 p.skills {
-    text-transform: uppercase;
-    font-size: 14px;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .text-sm {
-    font-size: 12px;
+  font-size: 12px;
 }
 .text-xsm {
-    font-size: 10px;
+  font-size: 10px;
 }
 
 .right {
-    float: right;
+  float: right;
 }
 .left {
-    float: left;
+  float: left;
 }
 
 .text-block {
-    text-align: justify;
+  text-align: justify;
 }
 
 .bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .margin-top-only {
-    margin: 1em 0 0 0;
-    width: 100%;
+  margin: 1em 0 0 0;
+  width: 100%;
 }

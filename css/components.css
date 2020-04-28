@@ -2,113 +2,111 @@
 
 /* card */
 .card {
-    background-color: white;
-    padding: 20px;
-    width: 50%;
-    margin: 0 auto 1em auto;
+  background-color: white;
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto 1em auto;
 }
 /* card responsive */
 @media only screen and (max-width: 600px) {
-    .card {
-        width: 75%;
-    }
+  .card {
+    width: 75%;
+  }
 }
 @media only screen and (max-width: 400px) {
-    .card {
-        width: 85%;
-    }
+  .card {
+    width: 85%;
+  }
 }
 .card-image {
-    position: absolute;
-    text-align: center;
-    top: 78px !important;
-    left: 0;
-    right: 0;
-    padding: 5px;
-    background-color: white;
-    border-radius: 50%;
-    width: 155px;
-    margin: 0 auto;
+  position: absolute;
+  text-align: center;
+  top: 78px !important;
+  left: 0;
+  right: 0;
+  padding: 5px;
+  background-color: white;
+  border-radius: 50%;
+  width: 155px;
+  margin: 0 auto;
 }
 .card-image img {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
 }
 .card-header {
-    margin-top: 1.25em;
+  margin-top: 1.25em;
 }
 .card-content {
-    width: 80%;
-    margin: 1em auto;
+  width: 80%;
+  margin: 1em auto;
 }
-
 
 /* card no-body */
 .card.no-body {
-    background-color: black !important;
-    border: 6px white solid;
+  background-color: black !important;
+  border: 6px white solid;
 }
 
 /* card-alpha */
 .card-alpha {
-    margin-top: 160px;
+  margin-top: 160px;
 }
 .card-alpha .card-header {
-    margin-top: 4.5em;
+  margin-top: 4.5em;
 }
 .card-alpha .card-content {
-    margin-top: 1em;
+  margin-top: 1em;
 }
 
 /* text-styles */
-.header, .subheader {
-    margin: 0.5em auto;
+.header,
+.subheader {
+  margin: 0.5em auto;
 }
 .subheader {
-    color:#a9a9a9;
+  color: #a9a9a9;
 }
-
 
 /* social media list */
 div.social-media {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 div.social-media a {
-    padding: 5px;
-    text-decoration: none;
+  padding: 5px;
+  text-decoration: none;
 }
 div.social-media i {
-    color: black;
+  color: black;
 }
 /* social-media responsive */
 @media only screen and (max-width: 600px) {
-    div.social-media a {
-        padding: 10px;
-    }
+  div.social-media a {
+    padding: 10px;
+  }
 }
 @media only screen and (max-width: 400px) {
-    div.social-media a {
-        padding: 20px;
-    }
+  div.social-media a {
+    padding: 20px;
+  }
 }
 
 .card-icon {
-    padding: 15px;
-    background-color: black;
-    border: 3px white solid;
-    border-radius: 50%;
-    width: 25px;
-    color: white;
-    position: relative;
-    top: 2em;
-    margin: 0 auto;
+  padding: 15px;
+  background-color: black;
+  border: 3px white solid;
+  border-radius: 50%;
+  width: 25px;
+  color: white;
+  position: relative;
+  top: 2em;
+  margin: 0 auto;
 }
 .card-icon i {
-    font-size: 25px;
+  font-size: 25px;
 }
 
-
 .skill-belt i {
-    font-size: 42px;
-    color: white;
+  font-size: 42px;
+  color: white;
 }
