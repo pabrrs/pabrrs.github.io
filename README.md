@@ -1,6 +1,39 @@
-![image](https://lh3.googleusercontent.com/proxy/mLFB_HW4l8cBfzbdhpJvs0qfwFyHb4SpJdASd5xaKzc6qSrJ_YQWOZiY-ox6NYgVk1rEYlGDKeHwHTEFXrkfmGdVV67Grs7pwRByyEB77Spj3t-tn3xWzKBJQn1HYPknm8mlnA_oSP2gfwKw5Zo)
+🤡ÅŤÅQŮĘ ĐØ§ PÅĽHÅÇØ§ ĽØĶØ🤡    AGORA É NOIS QUE MANDA NESSA PORRA   
+☣☣☣👿  
+🤡SAIAM DO GRUPO 🤡   
+  
+COMEÇOU O ATAQUE 🤡🤡🤡  
+  
+HÁ! HÁ! HÁ! HÁ! HÁ!   
+  
+🤡🤡🤡🤡🤡🤡  
+  
+̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= 🤡 =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿  
+           (   .  )  
+      _// 🍆\\_  
+Ta-_Em_-CHoK kk❓⚡  
+  
+VØÇË§ FØŘÅM ÅŤÅČÅĐØ§ PËĽØ§ PÅĽHÅÇØ§ ĽØĶØ§  
+  
+Ø§ ČØMËĐØŘË§ ĐË ÄĐMÎÑÎ§ŤŘÅĐØ 🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡🤡  
+  
+▕▇▇▇◤▔▔▔▔▔▔▔◥▇▇▇  
+▕▇▇▇▏◥▇◣┊◢▇◤▕▇▇▇  
+▕▇▇▇▏▃▆▅▎▅▆▃▕▇▇▇  
+▕▇▇▇▏╱▔▕▎▔▔╲▕▇▇▇  
+▕▇▇▇◣◣▃▅▎▅▃◢◢▇▇▇  
+▕▇▇▇▇◣◥▅▅▅◤◢▇▇▇▇  
+▕▇▇▇▇▇◣╲▇╱◢▇▇▇▇▇  
+▕▇▇▇▇▇▇◣▇◢▇▇▇▇▇▇  
+  
+🤡PÅĽHÅÇØ§ ĽØĶØ🤡
 
-![image](https://media.tenor.com/images/b6a956c3d0e113c5ff23d387cbad88f4/tenor.gif)
+    ̿̿ ̿̿ ̿̿ ̿'̿'\̵͇̿̿\з= 🤡 =ε/̵͇̿̿/’̿’̿ ̿ ̿̿ ̿̿ ̿̿  
+               (   .  )  
+          _// 🍆\\_  
+Ta-_Em_-CHoK kk❓⚡
+
+
 <!--
 **pabrrs/pabrrs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
