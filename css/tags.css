@@ -24,6 +24,17 @@ i {
   width: 150px;
   height: 150px;
 }
+
+#vasco {
+  position: absolute;
+  -left: 60%;
+  top: 40px;
+}
+#vasco img {
+  width: 150px;
+  height: 150px;
+}
+
 @media only screen and (max-width: 800px) {
   #kernel_the_cat {
     left: 58%;
